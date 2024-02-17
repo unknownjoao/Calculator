@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/darkMode.css">
+</head>
+
+<body>
+    <div class="calculator light-mode">
+        <label class="switcharea">
+            <input type="checkbox" id="darkModeSwitch">
+            <span class="slider"></span>
+        </label>
+
+        <div id="displayPreview" class="light-mode">
+            0
+        </div>
+        <div id="display" class="light-mode">
+            0
+        </div>
+
+        <div class="keyboard light-mode">
+            <input type="submit" value="0" class="zero number">
+            <input type="submit" value="1" class="one number">
+            <input type="submit" value="2" class="two number">
+            <input type="submit" value="3" class="three number">
+            <input type="submit" value="4" class="four number">
+            <input type="submit" value="5" class="five number">
+            <input type="submit" value="6" class="six number">
+            <input type="submit" value="7" class="seven number">
+            <input type="submit" value="8" class="eight number">
+            <input type="submit" value="9" class="nine number">
+            <input type="submit" value="." class="point number">
+            <input type="submit" value="AC" id="clear" class=" btn-grey">
+            <input type="submit" value="+/-" id="plus-minus" class=" btn-grey">
+            <input type="submit" value="%" id="percentage" class="btn-grey">
+            <input type="submit" value="÷" class="division  btn-orange operation">
+            <input type="submit" value="-" class="subtraction btn-orange operation">
+            <input type="submit" value="+" class="addition btn-orange operation">
+            <input type="submit" value="x" class="multiplication btn-orange operation">
+            <input type="submit" value="=" id='equals' class="equals btn-orange">
+        </div>
+
+    </div>
+
+    <script src="js/switch.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
